@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cohtb80hvh88m"]
+
+[ext_resource type="Script" uid="uid://cfraeb1i0vbis" path="res://script/healthfr.gd" id="1_klt3i"]
+
+[node name="health" type="ProgressBar" unique_id=1198317697]
+offset_left = 993.0
+offset_top = 44.0
+offset_right = 1120.0
+offset_bottom = 61.0
+value = 50.0
+show_percentage = false
+script = ExtResource("1_klt3i")

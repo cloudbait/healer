@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ds6ge1ccvnew7"]
+
+[ext_resource type="Script" uid="uid://rhcb70er530v" path="res://poisoned.gd" id="1_82gji"]
+
+[node name="poison" type="Area2D" unique_id=976702482]
+script = ExtResource("1_82gji")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
