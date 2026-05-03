@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://blmnubgycp36l"]
+
+[ext_resource type="Script" uid="uid://c28ptbd3ivmwj" path="res://script/manafr.gd" id="1_iuk8w"]
+
+[node name="manafr" type="ProgressBar" unique_id=739916308]
+offset_right = 4.0
+offset_bottom = 27.0
+script = ExtResource("1_iuk8w")

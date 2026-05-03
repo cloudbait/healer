@@ -217,4 +217,7 @@ shape = SubResource("CapsuleShape2D_sweqy")
 
 [node name="Timer" type="Timer" parent="." unique_id=30654422]
 
+[node name="manatimer" type="Timer" parent="." unique_id=471924559]
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="manatimer" to="." method="_on_manatimer_timeout"]
